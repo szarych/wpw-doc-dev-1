@@ -1,10 +1,10 @@
-# Python
+# Java 
 
-The Python implementation for the Worldpay Within IoT payment SDK. This SDK enables smart devices to discover each other, negotiate a price for services, make a payment (through Worldpay) for services, and then consume services via a **trusted trigger**. For more information, see [Home](index).
+The Java implementation for the Worldpay Within IoT payment SDK. This SDK enables smart devices to discover each other, negotiate a price for services, make a payment (through Worldpay) for services, and then consume services via a **trusted trigger**. For more information, see [Home](index).
 
 ## Prerequisites
 
-*   Before you get started, you should have Python installed on your system. We've built the SDK to work with version 2.7 and 3.
+*   Before you get started, you should have the Java SDK installed on your system. And prefereably a Java IDE (Integrated Development Environment) - our dev's love Netbeans, Eclipse and IntelliJ, but it's your choice, we've provided a maven script to build everything. 
 *   You should create an account with [Worldpay Online](https://online.worldpay.com) so that you're able to generate your own test API key. You'll replace the Worldpay test keys with your own in the SDK.
 
 !!! warning
@@ -13,17 +13,15 @@ The Python implementation for the Worldpay Within IoT payment SDK. This SDK enab
 
 ## Get started
 
-1.  Download the [repository](https://github.com/WPTechInnovation/wpw-sdk-python).
-2.  Download the latest version of Apache Thrift (currently 0.10.0).
-3.  Extract the repository and change to the **lib/py/** directory.
-4.  Run the following command: `sudo python setup.py` install.
-
+1. Download the [repository](https://github.com/WPTechInnovation/wpw-sdk-java).
+2. Get the dependenet repos by typing `git submodule init` and then `git submodule update --recursive --remote`
+ 
 ## Run the examples
 
 You can try the examples by running the examples in two different console windows. Or, if you're installing on two separate devices, they must be one the same network that allows UDP broadcast traffic. Make sure you're using rhw Online Worldpay (OWP) files rather than the Worldpay Total (WT) ones.
 
-*   In the first window, run `python runConsumerOWP.py`
-*   In the second window, run `python runProducerOWP.py` OR `python runProducerCallbacksOWP.py`
+*   In the first window, run the consumer JAR
+*   In the second window, run the producer JAR
 *   The two smart devices should communicate with each other and make a payment
 
 ## See the payments

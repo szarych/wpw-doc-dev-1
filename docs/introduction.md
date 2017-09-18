@@ -2,7 +2,7 @@
 
 Driven by the [Internet of Things](#iot), Worldpay is keen to demonstrate how you can integrate payments into everyday objects. So we created Worldpay Within - an embeddable payments agent that can be 'plugged' into your app or a smart device. It then lets you discover other devices and pay for that device’s service.
 
-We’ve got a series of [open source](#open-source) software development kits (SDKs) that let you make and accept payments from a range of devices. We’ve got SDKs for [node.js](nodejs.html), [Go](getting-started-with-go.html), [.NET](dotnet.html), Java and [Python 2.7 and 3](python27.html). You can download these SDKs, get playing, configure your setup, and recommend changes to our open source libraries.
+We’ve got a series of [open source](#open-source) software development kits (SDKs) that let you make and accept payments from a range of devices. We’ve got SDKs for [node.js](nodejs), [Go](getting-started-with-go), [.NET](dotnet), Java and [Python 2.7 and 3](python27). You can download these SDKs, get playing, configure your setup, and recommend changes to our open source libraries.
 
 ### Why use it
 
@@ -55,11 +55,11 @@ We'd love to see what you can come up with, so why not become a contributor? Hea
 Worldpay Within's SDK is written in GoLang and runs on smart devices, including Raspberry Pi. It lets you make and receive payments within the IoT. We've got wrappers in these languages:
 
 <div class="download">
-  <a class="md-button" href="getting-started-with-go.html">Go</a>
-  <a class="md-button" href="#java">Java</a>
-  <a class="md-button" href="dotnet.html">.NET</a>
-  <a class="md-button" href="python27.html">Python</a>
-  <a class="md-button" href="nodejs.html">Node.js</a>
+  <a class="md-button" href="nodejs.md">Node.js</a>
+  <a class="md-button" href="python27.md">Python</a>
+  <a class="md-button" href="java">Java</a>
+  <a class="md-button" href="dotnet.md">.NET</a>
+  <a class="md-button" href="getting-started-with-go.md">Go</a>
 </div>
 
 ### Contact us

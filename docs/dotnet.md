@@ -1,6 +1,6 @@
-# .NET Software Development Kit (SDK)
+# .NET 
 
-The .NET implementation for the Worldpay Within IoT payment SDK. This SDK, or Software Development Kit, enables smart devices to discover each other, negogiate a price for services, make a payment (through the Worldpay Online Payment gateway) for services, and then consume services via a **trusted trigger**. For more information see our documentation website [here](http://www.worldpaywithin.com).
+The .NET implementation for the Worldpay Within IoT payment SDK. This SDK, or Software Development Kit, enables smart devices to discover each other, negogiate a price for services, make a payment (through the Worldpay Online Payment gateway) for services, and then consume services via a **trusted trigger**. For more information, see [Home](index).
 
 ## Prerequisites
 
@@ -30,7 +30,7 @@ For now, you will need to build the project yourself, by following these steps:
 
 ## Run the examples
 
-Once you've loaded the projects in to Visual Studio and built the project successfully (please note you can[ report any problems or errors to us](https://github.com/WPTechInnovation/wpw-sdk-dotnet/issues) on Github).
+Once you've loaded the projects in to Visual Studio and built the project successfully (please note you can [report any problems or errors to us](https://github.com/WPTechInnovation/wpw-sdk-dotnet/issues) on Github).
 
 To run a sample app, run the `Worldpay.Within.Sample` project.
 
@@ -60,9 +60,10 @@ Re-run the sample application and you should see the payments coming through on 
 
 ## So what's happening?
 
-![Sequence Diagram of basic Worldpay Within producer (merchant) and consumer (shopper) flow](images/the-flows/flows-mockup.png)
+![The Worldpay Within puzzle piece](images/architecture/Architecture1.png)
+<figcaption>The Worldpay Within Flows sequence diagram</figcaption>
 
-You can see there are four phases: **Discover**, **Negotiate**, **Pay**, and **Deliver**. For more information, see [Worldpay Within](https://wptechinnovation.github.io/worldpay-within-sdk/).
+You can see there are four phases; **Discover**, **Select**, **Pay**, and **Release**. For more information, see [Worldpay Within](http://www.worldpaywithin.com).
 
 ## Introduction to the different .NET projects
 

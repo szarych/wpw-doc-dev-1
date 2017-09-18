@@ -1,10 +1,11 @@
-For the alpha release, we made the decision to go with four different wrappers. Their documented API can be found here:
+For the alpha release, we made the decision to go with five different wrappers. Their documented API can be found here:
 
 <div class="download">
-  <a class="md-button" href="#java">Java (Javadoc)</a>
-  <a class="md-button" href="python27.md">Python 2.7 doc</a>
-  <a class="md-button" href="dotnet.md">.net / C# doc</a>
-  <a class="md-button" href="nodejs.md">Node.js doc</a>
+  <a class="md-button" href="https://wptechinnovation.github.io/wpw-doc-dev/nodejs/">Node.js</a>
+  <a class="md-button" href="https://wptechinnovation.github.io/wpw-doc-dev/python27/">Python</a>
+  <a class="md-button" href="https://wptechinnovation.github.io/wpw-doc-dev/python27/">Java</a>
+  <a class="md-button" href="https://wptechinnovation.github.io/wpw-doc-dev/dotnet/">.NET</a>
+  <a class="md-button" href="https://wptechinnovation.github.io/wpw-doc-dev/getting-started-with-go/">Go</a>
 </div>
 
 ## Specification

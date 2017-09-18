@@ -22,7 +22,7 @@
 site_name: Worldpay Within
 site_description: Worldpay Within website
 site_author: Worldpay Within
-site_url: http://localhost:8000/
+site_url: https://wptechinnovation.github.io/wpw-doc-dev/
 site_favicon: 'assets/images/favicon.ico'
 
 # Repository
@@ -69,19 +69,20 @@ markdown_extensions:
 # Page tree
 pages:
   - Home: index.md
-  - SDKs:
+  - Get started: get-started.md
+  - SDK:
+    - Node.js: nodejs.md
+    - Python: python27.md
+    - Java: java.md 
     - .NET: dotnet.md
     - Go: getting-started-with-go.md
-    - Node.js: nodejs.md
-    - Python 2.7: python27.md
-    - Java: python27.md 
-  - Hackathons: hackathons.md
   - Advanced:
-      - How it works: how-it-works.md
-      - Architecure: architecture.md
-      - Internal structure: internal-structure.md
-      - Sample service messaging: sample-service-messaging.md
-      - API Spec: api-spec.md
+    - How it works: how-it-works.md
+    - Architecure: architecture.md
+    - Internal structure: internal-structure.md
+    - Sample service messaging: sample-service-messaging.md
+    - API Spec: api-spec.md
+  - Hackathons: hackathons.md
 
 # Google Analytics
 google_analytics:
