@@ -1,6 +1,5 @@
-# Get started
 ## New to Worldpay Within
-If you're new to Worldpay Within, you can download the four wrappers and begin testing the SDKs. We've got:
+If you're new to Worldpay Within, you can download the SDK in any of these languages and begin testing:
 <div class="download">
   <a class="md-button" href="../nodejs/">Node.js</a>
   <a class="md-button" href="../python27/">Python</a>
@@ -10,7 +9,7 @@ If you're new to Worldpay Within, you can download the four wrappers and begin t
 </div>
 
 ## An experienced user
-If you're familiar with how Worldpay Within works, and have used the SDKs before, why not find out more in our Advanced section:
+If you're familiar with how Worldpay Within works, and have used the SDKs before, you can find out more in our Advanced section:
 
 1. [How it works](how-it-works)
 2. [Architecture](architecture)
@@ -19,7 +18,7 @@ If you're familiar with how Worldpay Within works, and have used the SDKs before
 5. [API Specification](api-spec)
 
 ## Useful terms
-There's quite a few terms we're using in the SDKs and the other documentation, so it's worth knowing what they are and what they mean.
+Terms we're using in our SDKs and docs.
 
 |**Term**|**Definition**|
 | ------------- | ------------- |
